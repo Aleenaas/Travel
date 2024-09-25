@@ -7,19 +7,18 @@
     scroll-behavior: smooth;
     font-family: "Playfair Display", serif;
 }
+
 #navbar{
     background: #f9f9f9;
 }
 #logo{
     font-size: 36px;
     font-weight: 600;
-    color: black;
+    color: brown;
     text-shadow: 0px 1px 1px black;
     margin-bottom: 5px;
 }
-#logo span{
-    color: #ffa500;
-}
+
 .navbar-toggler span{
     color: black;
 }
@@ -55,37 +54,14 @@
     text-align: center;
     padding-top: 200px;
 }
-.home .content h5{
+.home .content h1{
     color: red;
     font-size: 36px;
     font-weight: 500;
     text-shadow: 0px 1px 1px black;
 }
-.home .content h1{
-    color: white;
-    font-size: 70px;
-    font-weight: 550;
-    text-shadow: 0px 1px 1px black;
-    margin-top: 5px;
-}
-.changecontent::after{
-    content: '';
-    color: #ffa500;
-    text-shadow: 0px 1px 1px black;
-    animation: changetext 10s infinite linear;
-}
-@keyframes changetext{
-    0%{content:"France";}
-    10%{content:"Spain";}
-    20%{content:"Italy";}
-    30%{content:"United Kingdom";}
-    40%{content:"China";}
-    50%{content:"United States";}
-    60%{content:"India";}
-    70%{content:"Pakistan";}
-    80%{content:"Turkey";}
-    90%{content:"Mexico";}
-}
+
+
 .home .content p{
     color: white;
     font-size: 15px;
@@ -96,7 +72,7 @@
 }
 .home .content a{
     padding: 10px;
-    background: white;
+    background: orange;
     color: black;
     letter-spacing: 2px;
     font-weight: 550;
@@ -133,10 +109,9 @@
     text-align: center;
     text-shadow: 0px 1px 1px black;
     font-weight: 600;
+    color: rgb(82, 230, 66);;
 }
-.main-text h1 span{
-    color: #ffa500;
-}
+
 .book .card{
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px black;
@@ -186,10 +161,9 @@
    margin-top: 30px;
    font-weight: 600;
    text-shadow: 0px 1px 1px black;
+   color: rgb(82, 230, 66);
 } 
-.main-txt h1 span{
-    color: #ffa500;
-}
+
 .packages .card{
     border-radius: 5px;
     border: none;
