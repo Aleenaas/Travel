@@ -163,44 +163,80 @@
    text-shadow: 0px 1px 1px black;
    color: rgb(82, 230, 66);
 } 
-
-.packages .card{
-    border-radius: 5px;
-    border: none;
-    box-shadow: rgba(0,0,0,0.1) 0px 4px 12px;
-}
-.packages .card img{
-    border-radius: 5px;
+/* pacakges */
+.packages{ 
     width: 100%;
-   
+    height: 100vh;
+    text-align: center;
+    padding: 16px 0px;
+    margin: 30px 0px;
 }
-.packages .card .card-body{
-    background: transparent;
+
+.container-packages{
+    margin-top: 62px;
 }
-.packages .card .card-body h3{
-    font-size: 25px;
+.content-packages{
+    width: 100%;
+    height: auto;
+    background-color:white;
+    transition: 0.2s ease;
+}
+.content-packages:hover{
+    box-shadow: 1px 1px 10px gray;
+}
+.img-package{
+    width: 100%;
+    height: 240px;
+}
+.image-package{
+    width: 100%;
+    height: 100%;
+}
+.content-package-container{
+    padding: 18px;
+}
+.details-package{
+    display: flex;
+    justify-content: space-between;
+}
+.icon-detail{
+    color: orange;
+    padding: 0px 8px;
+    font-size: 13px;
+}
+.detail-text{
+    font-size: 14px;
     font-weight: 600;
+    color: black;
 }
-.packages .card .card-body p{
-   font-size: 15px;
+.heading-content-package{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 33px;
+    text-align: left;
+    color: black;
+    margin: 8px 0px;
 }
-.checked{
-    color: #ffa500;
+.rating{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.star i{
+.rate{
     font-size: 15px;
+    font-weight: 500;
 }
-.packages .card .card-body h6{
-    font-size: 20px;
+.stars{
+    color:orange ;
+    font-size: 15px;
+    padding: 0px 8px;
 }
-.packages .card .card-body a{
-    padding: 5px;
-    text-decoration: none;
-    background: #ffa500;
-    color: white;
-    border-radius: 5px;
+.price{
+    font-size: 15px;
+    
 
 }
+
 /* Section Services Start */
 .services{
     background: #f9f9f9;
